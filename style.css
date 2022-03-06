@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+    padding: 30px 100px;
+    color: white;
+    font-family: 'Poppins';
+    position: fixed;
+    width: 87%;
+}
+
+nav h1:hover{
+    color: black;
+}
+
+ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+
+/* Home Section  */
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    padding-top: 100px;
+}
+
+#home img{
+    width: 600px;
+}
+
+#home h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-family: 'Source Code Pro';
+}
+
+#home h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Source Code Pro';
+}
+
+#home p{
+    font-size: 30px;
+    font-family: 'Source Code Pro';
+}
+
+
+/* CV(Resume) Section  */
+
+#cv{
+    padding: 30px 100px;
+}
+
+#cv h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Poppins';
+}
+
+#edu{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cv h2{
+    font-family: 'Poppins';
+    margin-top: 20px;
+}
+
+#cv p{
+    font-family: 'Source Code Pro';
+}
+
+#skills{
+    display: flex;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+#skill{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 404px;
+    width: 40%;
+}
+
+/* About Section  */
+
+#about{
+    padding: 30px 100px;
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    z-index: -2;
+    margin-top: 50px;
+}
+
+#about h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+}
+
+#about p{
+    font-size: 20px;
+    font-family: 'Source Code Pro';
+}
+
+#about img{
+    width: 400px;
+    filter: invert(1);
+    z-index: -1;
+}
+
+
+/* Contact Section  */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#contact h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+form{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    border: 0px solid white;
+    padding: 50px;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+input{
+    height: 30px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 30px rgba(0, 110, 255, 0.1);
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+textarea{
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+
+textarea:hover{
+    box-shadow: 0px 0px 30px rgba(0, 110, 255, 0.1);
+}
+
+#btn{
+    width: 220px;
+    height: 40px;
+    background-color: #0ea0ff;
+    color: white;
+    border: 0px #0ea0ff;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#btn:hover{
+    background-color: #0099ff;
+    cursor: pointer;
+}
+
+/* Footer  */
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    font-family: 'Poppins';
+}
+
+#social{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.soc{
+    width: 34px;
+    height: 34px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social img{
+    width: 30px;
+   height: 30px;
+}
+
+#ig img{
+    width: 31px;
+    height: 31px;
+}
+
+#fb img{
+    width: 34px;
+    height: 34px;
+}
+
+#gh a{
+    width: 30px;
+    height: 30px;
+}
+
+#fb a{
+    width: 34px;
+    height: 34px;
+}
+
+#ig a{
+    width: 30px;
+    height: 30px; 
+}
+
+#tw a{
+    width: 30px;
+    height: 30px;
+}
+
+.soc:hover{
+    background-color: #0ea0ff;
+}
+
